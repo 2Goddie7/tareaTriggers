@@ -22,3 +22,21 @@ Auditoría: Facilitan el seguimiento de cambios en los datos.
 Desventajas de los Triggers
 Sobrecarga de Rendimiento: Pueden afectar el rendimiento si se usan en exceso o son complejos.
 Dificultad en el Mantenimiento: Pueden complicar la lógica del sistema y dificultar el seguimiento de errores.
+
+*¿Dónde se aplican?
+
+Los triggers se aplican en diversas áreas de bases de datos, incluyendo:
+Validación de Datos: Aseguran que la información ingresada cumpla con ciertas reglas.
+Auditoría: Registran cambios en los datos para facilitar el seguimiento y la revisión.
+Seguimiento de Cambios: Mantienen un historial de modificaciones en las tablas.
+Reglas de Negocio Automáticas: Implementan automáticamente políticas y procedimientos específicos sin intervención manual.
+Estos ejemplos destacan cómo los triggers optimizan la gestión y la integridad de los datos en sistemas de bases de datos.
+
+*Casos específicos
+
+Ejemplos de casos de uso de triggers en empresas incluyen:
+Librerías: Un trigger que actualiza automáticamente el stock de libros en la tabla Libros cada vez que se registra una venta en LibrosVendidos 1.
+Sistemas de Reservas: Un trigger que ajusta el costo total de una reserva cuando se actualiza la duración de la estancia de un cliente 2.
+Auditoría de Ventas: Un trigger que registra automáticamente cada nueva venta en una tabla de historial para seguimiento y auditoría 2.
+Control de Salarios: Un trigger que almacena cambios en los salarios de empleados, registrando el salario antiguo y nuevo para mantener un historial 2.
+Estos ejemplos muestran cómo los triggers ayudan a gestionar procesos críticos y mantener la integridad de los datos.
